@@ -1,0 +1,24 @@
+public class Fil extends Thread {
+    private String nom;
+    private boolean estricte;
+
+    private static final Object bloqueig = new Object();
+    private static String torn = "Juan";
+
+    public Fil(String nom, int prioritat, boolean estricte) {
+        this.nom = nom;
+        this.estricte = estricte;
+        this.setPriority(prioritat);
+    }
+
+    @Override 
+    public void run() {
+        for (int i = 1; i <= 9; i++) {
+            if (estricte) {
+
+                
+            }
+        }
+                
+    }
+}
