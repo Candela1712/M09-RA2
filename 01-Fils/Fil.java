@@ -10,7 +10,7 @@ public class Fil extends Thread {
         this.estricte = estricte;
         this.setPriority(prioritat);
     }
-
+    
     @Override 
     public void run() {
         for (int i = 1; i <= 9; i++) {
@@ -24,7 +24,6 @@ public class Fil extends Thread {
                         }
                     }
                     System.out.println(nom + " " + i);
-
                     if (nom.equals("Juan")) {
                         torn = "Pepe";
                     } else {
