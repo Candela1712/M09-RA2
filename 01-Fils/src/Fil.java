@@ -1,3 +1,4 @@
+package src;
 public class Fil extends Thread {
     private String nom;
     private boolean estricte;

@@ -1,3 +1,4 @@
+package src;
 public class PrincipalEstricta {
     public static void main(String[] args) {
 
